@@ -90,9 +90,9 @@ public class Bank implements eBank
     @Override
     public void logOut(User user)
     {
-        System.out.println("Are you sure you want to log out?               (type 'y' to confirm)");
+        System.out.println("Are you sure you want to log out?               (type 'yes' to confirm)");
         String input = sc.next();
-        if (Objects.equals(input, "y"))
+        if (Objects.equals(input, "yes"))
             user.logged = false;
     }
 

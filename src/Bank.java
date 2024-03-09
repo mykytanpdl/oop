@@ -8,9 +8,8 @@ public class Bank implements eBank
 {
     private final String name;
     private int usersCount;
-    private Map<String, User> users;
-    private Map<User, String> passwords;
-//    private Transaction transaction;
+    private final Map<String, User> users;
+    private final Map<User, String> passwords;
     public List<Transaction> transactionList;
 
     public Bank(String name)
@@ -121,7 +120,7 @@ public class Bank implements eBank
         printLastTransactions(this.transactionList.size(), requester);
     }
 
-    public boolean validPW(User user, String password)
+    public boolean validPassword(User user, String password)
     {
         return Objects.equals(passwords.get(user), password);
     }

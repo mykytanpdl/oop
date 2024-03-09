@@ -24,7 +24,7 @@ public class BillPayment implements Transaction
         {
             System.out.println("Enter your password to proceed: ");
             String pw = sc.next();
-            if (payer.bank.validPW(payer, pw))
+            if (payer.bank.validPassword(payer, pw))
             {
                 if (execute())
                 {

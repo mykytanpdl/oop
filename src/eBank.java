@@ -13,5 +13,5 @@ public interface eBank
     void recordTransaction(Transaction tr);
     void printLastTransactions(int number, User requester);
     void printLastTransactions(User requester);
-    boolean validPW(User user, String password);
+    boolean validPassword(User user, String password);
 }

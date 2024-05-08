@@ -1,5 +1,5 @@
 package com.banknew.business.loan;
-import com.banknew.business.*;
+import com.banknew.business.account.Account;
 import com.banknew.business.enums.*;
 
 import java.time.LocalDate;

@@ -1,8 +1,6 @@
 package com.banknew.business.loan;
-import com.banknew.business.*;
+import com.banknew.business.account.Account;
 import com.banknew.business.enums.*;
-
-import java.util.List;
 
 public class Loan {
     private final String loanId;

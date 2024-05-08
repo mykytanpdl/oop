@@ -1,5 +1,6 @@
-package com.banknew.business;
+package com.banknew.business.transaction;
 
+import com.banknew.business.account.Account;
 import com.banknew.business.enums.TransactionType;
 import com.banknew.business.loan.LoanService;
 import com.banknew.business.loan.Repayment;

@@ -1,6 +1,6 @@
 package com.banknew.business.loan;
 
-import com.banknew.business.Account;
+import com.banknew.business.account.Account;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

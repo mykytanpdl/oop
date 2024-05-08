@@ -1,10 +1,11 @@
-package com.banknew.business;
+package com.banknew.business.account;
 
+import com.banknew.business.transaction.Transaction;
+import com.banknew.business.transaction.TransactionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import com.banknew.business.account.*;
 
 @Service
 public class AccountService {

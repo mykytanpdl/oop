@@ -1,4 +1,6 @@
-package com.banknew.business;
+package com.banknew.business.transaction;
+
+import com.banknew.business.account.Account;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.banknew.business;
+package com.banknew.business.account;
 
 import com.banknew.business.loan.Loan;
 

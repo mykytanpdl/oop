@@ -1,4 +1,6 @@
-package com.banknew.business;
+package com.banknew.business.account;
+
+import com.banknew.business.account.Account;
 
 import java.util.ArrayList;
 import java.util.List;
